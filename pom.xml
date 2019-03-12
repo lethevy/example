@@ -31,6 +31,8 @@
         <maven.compiler.source>1.6</maven.compiler.source>
         <maven.compiler.target>1.6</maven.compiler.target>
         <testng-version>6.8.7</testng-version>
+        <sitemech.version>2.4.2</sitemech.version>
+        <jstl.version>1.2</jstl.version>
         </properties>
 
     <dependencies>
@@ -63,6 +65,19 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng-version}</version>
+        </dependency>
+        <!-- teamplate sitemesh -->
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>sitemesh</artifactId>
+            <version>${sitemech.version}</version>
+        </dependency>
+
+        <!-- JSTL -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
         </dependency>
     </dependencies>
 

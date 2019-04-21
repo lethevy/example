@@ -1,7 +1,8 @@
 package vn.myclass.core.persistence.entity;
 
 import javax.persistence.*;
-import java.security.Timestamp;
+
+import java.sql.Timestamp;
 import java.util.List;
 
 @Entity

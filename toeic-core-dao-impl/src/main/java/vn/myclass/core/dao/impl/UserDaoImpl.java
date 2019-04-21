@@ -1,4 +1,4 @@
-﻿package vn.myclass.core.dao.impl;
+package vn.myclass.core.dao.impl;
 
 import vn.myclass.core.dao.UserDao;
 import vn.myclass.core.data.daoimpl.AbstractDao;
